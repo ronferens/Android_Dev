@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp" >
+
+    <TextView
+        android:id="@+id/itemDialogManualAddCallEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:text="@string/dialog_manual_add_call_manual_edit_msg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:selectAllOnFocus="true"
+        android:layout_gravity="center_horizontal"
+        android:phoneNumber="false" />
+
+</LinearLayout><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/layout/manual_add_call_edit.xml -->

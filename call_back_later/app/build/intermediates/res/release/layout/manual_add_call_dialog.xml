@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp" >
+
+    <TextView
+        android:id="@+id/itemDialogManualAddCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:text="@string/dialog_manual_add_call_msg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/itemDialogAddManContactsImg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_icon_background"
+                android:contentDescription="@string/call_image_desc"
+                android:src="@drawable/ic_add_manul_contacts" />
+
+            <TextView
+                android:id="@+id/itemDialogAddManContactsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/dialog_manual_add_call_contact_list"
+                android:textColor="@color/blue_ivy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/itemDialogAddManEditImg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_icon_background"
+                android:contentDescription="@string/msg_image_desc"
+                android:src="@drawable/ic_add_manual_edit" />
+
+            <TextView
+                android:id="@+id/itemDialogAddManEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/dialog_manual_add_call_manual_edit"
+                android:textColor="@color/blue_ivy" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Ferens/StudioProjects/IllBeBack/app/src/main/res/layout/manual_add_call_dialog.xml -->

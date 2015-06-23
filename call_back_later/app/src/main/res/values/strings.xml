@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity -->    
+    <string name="app_name">Call Back Later</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_call">Add</string>
+    <string name="action_delete_call">Delete</string>
+    <string name="action_remove_calls">Remove Calls</string>
+    <string name="empty_list">Calls list is empty</string>
+    <string name="dialog_call_delete_msg">Do you want to remove this call from list?</string>
+    <string name="dialog_remove_call">Remove</string>
+    <string name="dialog_remove_call_cancel">Cancel</string>
+    <string name="dialog_title_contact_multiple_number">Which number to add?</string>
+    <string name="dialog_manual_add_call_msg">How would you like to add the number?</string>
+    <string name="dialog_manual_add_call_contact_list">Contacts</string>
+    <string name="dialog_manual_add_call_manual_edit">Edit</string>
+    <string name="dialog_manual_add_call_manual_edit_msg">Please enter the number to add:</string>
+
+    <!-- Call Dialog -->
+    <string name="add_call_to_list">Add call to list?</string>
+    <string name="add_multiple_calls_to_list">Please select which calls to add to the list:</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="dialog_add_call">Add</string>
+    <string name="dialog_add_selected_calls">Add Selected Calls</string>
+    <string name="dialog_ignore_call">Ignore</string>
+    <string name="dialog_call_waiting">Call Waiting</string>
+    <string name="dialog_call_progress">1</string>
+    <string name="dialog_outgoing_call_remove">Remove</string>
+    <string name="dialog_outgoing_call_keep">Keep</string>
+    <string name="dialog_outgoing_call_remove_msg">The contact you\'ve called is currently on your list.\nWould you like to remove it?</string>
+    
+    <!-- Call List Adapter -->
+    <string name="list_item_contact_name">Contact Name</string>
+    <string name="list_item_contact_number">Contact Number</string>
+    <string name="list_item_repetition">(rep)</string>
+    <string name="list_item_call_date">Call Date</string>
+    <string name="contact_image_desc">Contact Image</string>
+    <string name="call_image_desc">Call</string>
+    <string name="msg_image_desc">Message</string>
+    
+    <!-- Preferences Activity -->
+    <string name="pref_header">Settings</string>
+    
+    <string name="pref_unanswered_calls_image_desc">Missed Calls</string>
+    <string name="pref_unanswered_calls">What to do with missed calls?</string>
+        <string-array name="pref_unanswered_calls_array">
+        <item>Ignore</item>
+        <item>Manually add calls to list</item>
+        <item>Automatically add calls to list</item>
+    </string-array>
+    
+    <string name="pref_alert_dialog_duration_image_desc">Alert Duration</string>
+    <string name="pref_alert_dialog_duration">\"Add/Ignore\" dialog appearance</string>
+    <string name="pref_alert_dialog_duration_desc">Show \"Add/Ignore\" dialog for</string>
+    <string-array name="pref_alert_dialog_duration_array">
+        <item>5 Seconds</item>
+        <item>7 Seconds</item>
+        <item>10 Seconds</item>
+    </string-array>
+    
+    <string name="pref_call_duration_image_desc">Call Duration</string>
+    <string name="pref_call_duration">What to do with answered calls?</string>
+    <string name="pref_call_duration_threshold">Calls that lasted less than </string>
+    <string name="pref_call_duration_threshold_seconds">seconds, will be considered as short calls</string>
+    <string name="pref_call_set_duration_threshold">Set</string>
+    <string-array name="pref_call_duration_array">
+        <item>Ignore</item>
+        <item>Pop a dialog only for short calls</item>
+        <item>Pop a dialog for all answered calls</item>
+    </string-array>
+    
+    <string name="pref_call_remove_image_desc">Call Removal</string>
+    <string name="pref_call_remove">What to do once you call back?</string>
+    <string-array name="pref_call_remove_array">
+        <item>Remove the call from the list</item>
+        <item>Pop a dialog and let me choose</item>
+        <item>Don\'t do anything</item>
+    </string-array>
+
+    <string name="pref_outgoing_call_remove_image_desc">Outgoing Call Removal</string>
+    <string name="pref_outgoing_call_remove">What to do if you called back without the app?</string>
+    <string-array name="pref_outgoing_call_remove_array">
+        <item>Remove the call from the list</item>
+        <item>Pop a dialog and let me choose</item>
+        <item>Don\'t do anything</item>
+    </string-array>
+    
+    <!-- Calls Manage Dialog -->
+    <string name="call_manage_msg">Remove calls from the list which are</string>
+    <string-array name="call_manage_array">
+        <item>Older than today</item>
+        <item>Older than yesterday</item>
+        <item>Older than last week</item>
+        <item>Remove all Calls</item>
+    </string-array>
+    
+    <!-- Call Duration Dialog -->
+    <string name="dialog_call_duration_message">Set the call duration threshold for short answered calls</string>
+    <string name="dialog_call_duration_seconds">Seconds</string>
+    <string name="dialog_call_duration_set">Set</string>
+    <string name="dialog_call_duration_cancel">Cancel</string>
+
+    <!-- Widget -->
+    <string name="widget_contact_name">Contact_Name</string>
+    <string name="widget_call_repetitions">Call_Repetitions</string>
+    <string name="widget_image_desc">Call Back Later</string>
+    <string name="widget_text_view_num_of_calls"># of Calls</string>
+    <string name="widget_item_action_call">Call</string>
+    <string name="widget_item_action_msg">Message</string>
+    <string name="widget_item_action_remove">Delete</string>
+    <string name="widget_item_action_cancel">Cancel</string>
+
+    <!-- About Dialog -->
+    <string name="about_rate_this_app">If you enjoy using Call Back Later, please take a moment to rate the app. Thank you for your support!</string>
+    <string name="about_version">Version - </string>
+    <string name="about_menu_text">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

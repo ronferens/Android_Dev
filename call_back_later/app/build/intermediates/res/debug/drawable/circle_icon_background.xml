@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="@color/blue_ivy" />
+
+    <size
+        android:height="120dp"
+        android:width="120dp" />
+
+</shape><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/drawable/circle_icon_background.xml -->

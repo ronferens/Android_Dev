@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageViewContactImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/contact_image_desc"
+        android:src="@drawable/default_contact_image" />
+
+    <RelativeLayout
+        android:id="@+id/LinearLayoutContactDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageViewContactImage" >
+
+        <TextView
+            android:id="@+id/textViewCallNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/list_item_contact_number"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewCallRepetition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/textViewCallNumber"
+            android:text="@string/list_item_repetition"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewCallDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCallNumber"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/list_item_call_date"
+            android:textColor="@color/blue_jay"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/textViewCallHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCallNumber"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/textViewCallDate"
+            android:text="@string/list_item_call_date"
+            android:textColor="@color/blue_jay"
+            android:textStyle="normal|italic" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageViewCall"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_toLeftOf="@+id/imageViewMsg"
+        android:contentDescription="@string/call_image_desc"
+        android:padding="2dp"
+        android:src="@drawable/ic_action_call" />
+
+    <ImageView
+        android:id="@+id/imageViewMsg"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/msg_image_desc"
+        android:padding="2dp"
+        android:src="@drawable/ic_action_msg" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/layout/calls_list_adapter.xml -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- ListView to be shown on widget -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/widget_background" >
+
+        <ImageView
+            android:id="@+id/imageViewAppLauncher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/widget_image_desc"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewNunberOfCalls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_text_view_num_of_calls" />
+    </LinearLayout>
+
+    <TextView
+       android:layout_width="2dp"
+       android:layout_height="fill_parent"
+       android:background="@android:color/transparent"/>
+
+    <!-- ListView to be shown on widget -->
+
+    <ListView
+        android:id="@+id/listViewWidget"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:background="@drawable/widget_background" >
+    </ListView>
+    <!-- Empty view is show if list items are empty -->
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_list"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone"
+        android:background="@drawable/widget_background" />
+
+</LinearLayout><!-- From: file:/C:/Users/Ferens/StudioProjects/IllBeBack/app/src/main/res/layout/widget.xml -->

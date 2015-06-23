@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/titleLayoutMultipleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textViewMultipleMassage"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/add_multiple_calls_to_list"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2" >
+
+            <ProgressBar
+                android:id="@+id/progressBarMultipleDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/progressBarMultipleDialogText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/dialog_call_progress"
+                android:textColor="@color/blue_jay" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dialogCallsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLayoutMultipleDialog"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:divider="@color/platinum"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</RelativeLayout><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/layout/call_dialog_multiple.xml -->

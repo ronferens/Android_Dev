@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/itemDialogContactImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/contact_image_desc"
+            android:src="@drawable/default_contact_image" />
+
+        <TextView
+            android:id="@+id/itemDialogContactNumbertextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/contact_number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/itemDialogImageViewCall"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_icon_background"
+                android:contentDescription="@string/call_image_desc"
+                android:src="@drawable/ic_widget_action_call" />
+
+            <TextView
+                android:id="@+id/itemDialogImageViewCallText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/widget_item_action_call"
+                android:textColor="@color/blue_ivy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/itemDialogImageViewMsg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_icon_background"
+                android:contentDescription="@string/msg_image_desc"
+                android:src="@drawable/ic_widget_action_msg" />
+
+            <TextView
+                android:id="@+id/itemDialogImageViewMsgText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/widget_item_action_msg"
+                android:textColor="@color/blue_ivy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/itemDialogImageViewDelete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_icon_background"
+                android:contentDescription="@string/action_delete_call"
+                android:src="@drawable/ic_widget_action_remove" />
+
+            <TextView
+                android:id="@+id/itemDialogImageViewRemoveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/widget_item_action_remove"
+                android:textColor="@color/blue_ivy" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/layout/widget_item_pressed_dialog.xml -->

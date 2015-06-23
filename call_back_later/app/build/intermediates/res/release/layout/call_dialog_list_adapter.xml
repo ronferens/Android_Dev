@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageViewDialogContactImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/contact_image_desc"
+        android:src="@drawable/default_contact_image" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageViewDialogContactImage" >
+
+        <TextView
+            android:id="@+id/textViewDialogCallNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/list_item_contact_number"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewDialogCallWaiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDialogCallNumber"
+            android:layout_marginTop="5dp"
+            android:text="@string/dialog_call_waiting"
+            android:textColor="@color/blue_jay"
+            android:textStyle="normal|italic" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxDialogCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/relativeLayout1" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Ferens/StudioProjects/IllBeBack/app/src/main/res/layout/call_dialog_list_adapter.xml -->

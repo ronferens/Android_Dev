@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/widget.xml" />
+    </issue>
+</lint>

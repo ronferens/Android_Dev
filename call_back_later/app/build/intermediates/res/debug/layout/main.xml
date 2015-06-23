@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main" >
+
+    <ListView
+        android:id="@+id/callslistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="@color/platinum"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewCallsListEmpty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/empty_list"
+        android:textSize="25sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Ferens/Dropbox/Git/android_dev/call_back_later/app/src/main/res/layout/main.xml -->
