@@ -1,7 +1,4 @@
-# Android Developemnt
-This repository includes all my Android projects and released applications
-
-## Call Back Later
+# Call Back Later
 Latest version - V7.0.0 @22.6.2015
 
 **_Call Back Later_** is an Android application designed to help you manage the important calls you would like to get back to whenever you wish, including missed and rejected ones.
